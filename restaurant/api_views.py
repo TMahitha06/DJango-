@@ -116,7 +116,6 @@ class ReservationViewSet(viewsets.ModelViewSet):
 
 
 def api_links_page(request):
-    """Simple page showing all API endpoints"""
     links = [
         ("/api/menu-items/", "Menu Items"),
         ("/api/customers/", "Customers"),

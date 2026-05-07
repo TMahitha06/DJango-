@@ -1,7 +1,8 @@
 DJango API Output Links
 ==============================
 1.Menu Items
-[http://127.0.0.1:8000/api/menu-items/](http://127.0.0.1:8000/api/menu-items/)
+http://127.0.0.1:8000/api/menu-items/
+/home/newuser/Downloads/Menu-items.png
 
 2.Customers
 http://127.0.0.1:8000/api/customers/
