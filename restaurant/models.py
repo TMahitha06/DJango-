@@ -1,7 +1,6 @@
 from django.db import models
 from django.utils import timezone
 
-
 class MenuItem(models.Model):
     item_id = models.AutoField(primary_key=True)
     item_name = models.CharField(max_length=255)
@@ -13,7 +12,6 @@ class MenuItem(models.Model):
 
     def __str__(self):
         return f"{self.item_name} - RS{self.price}"
-
 
 class Customers(models.Model):
     customer_id = models.AutoField(primary_key=True)
